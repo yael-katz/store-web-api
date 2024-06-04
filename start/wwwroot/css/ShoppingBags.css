@@ -1,0 +1,78 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+.items {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+    th.itemsColumn {
+        text-align: left;
+    }
+
+.incrementButton,
+.decrementButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+    .incrementButton:hover,
+    .decrementButton:hover {
+        background-color: #0056b3;
+    }
+
+.DeleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+    .DeleteButton:hover {
+        background-color: #bd2130;
+    }
+
+.item-row:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.item-row:nth-child(even) {
+    background-color: #fff;
+}
+.img-w img {
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-position: center; /* Position the center of the image */
+}

@@ -1,0 +1,35 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.order {
+    border: 2px solid #008CBA;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    max-width: 400px;
+}
+
+    .order p {
+        margin: 10px 0;
+    }
+
+    .order strong {
+        color: #008CBA;
+    }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
